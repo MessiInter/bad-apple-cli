@@ -1,0 +1,116 @@
+{
+  "name": "@bad-apple-cli/source",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Play Bad Apple in ASCII text format in your Terminal",
+  "main": "./src/main.js",
+  "type": "commonjs",
+  "bin": {
+    "bad-apple": "./src/main.js",
+    "bad-apple-cli": "./src/main.js",
+    "badapple": "./src/main.js",
+    "badapplecli": "./src/main.js",
+    "apple": "./src/main.js"
+  },
+  "keywords": [
+    "bad-apple",
+    "bad-apple-mv",
+    "bad-apple-vid",
+    "bad-apple-video",
+    "bad-apple-cli",
+    "badapplecli",
+    "badapple",
+    "badapplemv",
+    "badapplevid",
+    "badapplevideo",
+    "bad",
+    "apple",
+    "video",
+    "vid",
+    "ascii",
+    "ascii-text-format",
+    "ascii-text",
+    "ascii-video",
+    "ascii-vid",
+    "asciitextformat",
+    "asciitext",
+    "asciivideo",
+    "asciivid",
+    "ascii-text-video",
+    "ascii-text-vid",
+    "asciitextvideo",
+    "asciitextvid",
+    "text-only-video",
+    "text-only-vid",
+    "textonlyvideo",
+    "textonlyvid",
+    "txt-only-video",
+    "txt-only-vid",
+    "txtonlyvideo",
+    "txtonlyvid",
+    "text-video",
+    "text-vid",
+    "textvid",
+    "textvideo",
+    "txt-video",
+    "txt-vid",
+    "txtvid",
+    "txtvideo",
+    "text",
+    "terminal",
+    "cli",
+    "js",
+    "node-js",
+    "nodejs",
+    "node",
+    "mpv"
+  ],
+  "scripts": {
+    "start": "node .",
+    "watch": "nodemon -x \"clear && node .\" -e \"*\" --ignore \"./dist\" --ignore \"./tmp\" --ignore \"./ascii\" --ignore \"./frames\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MessiInter/bad-apple-cli.git"
+  },
+  "engines": {
+    "node": ">=13.0.0",
+    "npm": "Please use yarn instead of npm to install dependencies",
+    "yarn": ">=1.22.2"
+  },
+  "os": [
+    "!win32"
+  ],
+  "author": "bad-apple-cli authors",
+  "contributors": [
+    {
+      "name": "Messi Inter Miami",
+      "email": "messivsinter@gmail.com",
+      "url": "https://github.com/MessiInter",
+      "author": true
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Messi Inter Miami",
+      "email": "messivsinter@gmail.com",
+      "url": "https://github.com/MessiInter",
+      "author": true
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MessiInter/bad-apple-cli/issues"
+  },
+  "homepage": "https://github.com/MessiInter/bad-apple-cli#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "sort-algorithms": "^1.1.0",
+    "timers-promises": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "packageManager": "yarn@1.22.2",
+  "pnpm": {}
+}
